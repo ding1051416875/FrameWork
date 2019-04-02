@@ -10,6 +10,6 @@
 
 @implementation Persion
 - (void)run{
-    NSLog(@"run");
+    NSLog(@"rundubg");
 }
 @end
