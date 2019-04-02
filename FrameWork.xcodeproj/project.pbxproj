@@ -10,6 +10,8 @@
 		35D1E000222523800068DDDB /* FrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D1DFF6222523800068DDDB /* FrameWork.framework */; };
 		35D1E005222523800068DDDB /* FrameWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D1E004222523800068DDDB /* FrameWorkTests.m */; };
 		35D1E007222523800068DDDB /* FrameWork.h in Headers */ = {isa = PBXBuildFile; fileRef = 35D1DFF9222523800068DDDB /* FrameWork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35D1E0122225286E0068DDDB /* Persion.h in Headers */ = {isa = PBXBuildFile; fileRef = 35D1E0102225286E0068DDDB /* Persion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35D1E0132225286E0068DDDB /* Persion.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D1E0112225286E0068DDDB /* Persion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		35D1DFFF222523800068DDDB /* FrameWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrameWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35D1E004222523800068DDDB /* FrameWorkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrameWorkTests.m; sourceTree = "<group>"; };
 		35D1E006222523800068DDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35D1E0102225286E0068DDDB /* Persion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Persion.h; sourceTree = "<group>"; };
+		35D1E0112225286E0068DDDB /* Persion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Persion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				35D1DFF9222523800068DDDB /* FrameWork.h */,
+				35D1E0102225286E0068DDDB /* Persion.h */,
+				35D1E0112225286E0068DDDB /* Persion.m */,
 				35D1DFFA222523800068DDDB /* Info.plist */,
 			);
 			path = FrameWork;
@@ -94,6 +100,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35D1E007222523800068DDDB /* FrameWork.h in Headers */,
+				35D1E0122225286E0068DDDB /* Persion.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35D1E0132225286E0068DDDB /* Persion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +357,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.fwd.eApp.FrameWork;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -372,6 +381,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.fwd.eApp.FrameWork;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
